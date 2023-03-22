@@ -7,6 +7,7 @@ fi
 
 set -e
 set -u
+set -x
 
 IID=${1}
 BRAND=${2}

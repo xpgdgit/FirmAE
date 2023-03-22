@@ -2,6 +2,7 @@
 
 set -e
 set -u
+set -x
 
 if [ -e ./firmae.config ]; then
     source ./firmae.config

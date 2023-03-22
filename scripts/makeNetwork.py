@@ -18,6 +18,7 @@ QEMUCMDTEMPLATE = """#!/bin/bash
 
 set -e
 set -u
+set -x
 
 ARCHEND=%(ARCHEND)s
 IID=%(IID)i
