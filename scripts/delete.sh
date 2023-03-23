@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 if [ -e ./firmae.config ]; then
     source ./firmae.config
 elif [ -e ../firmae.config ]; then

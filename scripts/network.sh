@@ -1,5 +1,7 @@
 #!/firmadyne/sh
 
+set -x
+
 BUSYBOX=/firmadyne/busybox
 ACTION=`${BUSYBOX} cat /firmadyne/network_type`
 

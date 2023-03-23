@@ -1,5 +1,7 @@
 #!/firmadyne/sh
 
+set -x
+
 BUSYBOX=/firmadyne/busybox
 
 [ -d /dev ] || mkdir -p /dev

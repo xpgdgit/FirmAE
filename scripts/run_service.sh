@@ -1,5 +1,7 @@
 #!/firmadyne/sh
 
+set -x
+
 BUSYBOX=/firmadyne/busybox
 BINARY=`${BUSYBOX} cat /firmadyne/service`
 BINARY_NAME=`${BUSYBOX} basename ${BINARY}`
